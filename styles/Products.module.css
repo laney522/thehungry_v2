@@ -1,0 +1,51 @@
+.container {
+  display: flex;
+  font-display: column;
+  align-items: center;
+}
+
+.title{
+  font-size: ;
+}
+
+.price{
+  font-size: 25px;
+  font-weight: 500;
+}
+
+.desc {
+  font-size: 24px;
+  color: #444;
+  width: 70%;
+}
+
+.wrapper {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.left{
+  flex: 1;
+  margin: 50px;
+}
+
+.right{
+  flex: 3;
+}
+
+@media screen and (max-width: 480px) {
+  .container {
+    width: 100%;
+  }
+  .title {
+    font-size: 30px;
+  }
+
+  .price,
+  .desc {
+    font-size: 24px;
+  }
+}
